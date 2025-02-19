@@ -23,7 +23,7 @@ export default $config({
 
     // Create an email component with the sender email address
     const email = new sst.aws.Email("MyEmail", {
-      sender: "martin@gizmodlabs.com",
+      sender: "martin@gizmodlabs.com", 
     });
 
   

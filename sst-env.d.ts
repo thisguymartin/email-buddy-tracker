@@ -5,20 +5,6 @@
 
 declare module "sst" {
   export interface Resource {
-    "HonoApi": {
-      "name": string
-      "type": "sst.aws.Function"
-      "url": string
-    }
-    "MyEmail": {
-      "configSet": string
-      "sender": string
-      "type": "sst.aws.Email"
-    }
-    "UserRecords": {
-      "name": string
-      "type": "sst.aws.Dynamo"
-    }
   }
 }
 /// <reference path="sst-env.d.ts" />

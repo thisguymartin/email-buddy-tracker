@@ -1,15 +1,43 @@
-# email-buddy-tracker
 
-To install dependencies:
+# Email Buddy Tracker
 
-```bash
-bun install
-```
+A simple AWS serverless application built with [SST v3](https://docs.sst.dev/) for tracking email events.
 
-To run:
+## Quick Start
 
-```bash
-bun run index.ts
-```
+1. **Clone and Install**
+   ```bash
+   git clone https://github.com/your-username/email-buddy-tracker.git
+   cd email-buddy-tracker
+   npm install
+   ```
 
-This project was created using `bun init` in bun v1.2.0. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+2. **Run Locally**
+   ```bash
+   npm run dev
+   ```
+   - Spins up a local dev environment.
+
+3. **Test**
+   ```bash
+   npm run test
+   ```
+   - Runs tests using `sst test`.
+
+4. **Build**
+   ```bash
+   npm run build
+   ```
+   - Compiles TypeScript for deployment.
+
+5. **Deploy**
+   ```bash
+   npm run deploy
+   ```
+   - Deploys the application to AWS.
+
+6. **Remove**
+   ```bash
+   npm run cleanup
+   ```
+   - Deletes all resources from AWS.

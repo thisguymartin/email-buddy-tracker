@@ -5,7 +5,7 @@
   "scripts": {
     "build": "sst build",
     "deploy": "sst deploy",
-    "destroy": "sst destroy",
+    "cleanup": "sst remove",
     "dev": "sst dev",
     "test": "sst test"
   },
